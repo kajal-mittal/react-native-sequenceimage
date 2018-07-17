@@ -47,7 +47,7 @@ export default class App extends Component {
 		];
 		return (
 			<View style={styles.container}>
-				<SequenceImage images={imagesArr} duration={2000} repeatMode={'default'} />
+				<SequenceImage images={imagesArr} style={{width:60,height:60}} duration={2000} repeatMode={'default'} />
 				<Text>Hello World</Text>
 			</View>
 		);
